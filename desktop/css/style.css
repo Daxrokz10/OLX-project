@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color: #1c1c1c;
+    --font: #515151;
+    --button-color: #2AD386;
+    --link: #0060FF;
+    --visited-link: #7e0280;
+    --error: #FF0000;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
