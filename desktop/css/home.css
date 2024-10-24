@@ -9,9 +9,29 @@
     --card: #515151;
 }
 
+/* HEADER */
+
+header{
+    background-color: var(--background-color);
+}
 .location-button{
     background-color: var(--card);
+    color: white;
+    width: 88px;
+    height: 44px;
+    border-radius: 8px;
     border: 0;
+}
+.location-dot{
+    color: var(--button-color)!important;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+/* MAIN */
+
+.main{
+    margin-top: -50px;
 }
 
 footer{
