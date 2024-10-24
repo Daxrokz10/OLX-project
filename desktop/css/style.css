@@ -17,7 +17,7 @@ body{
     background-color: var(--background-color);
 }
 
-nav a{
+a{
     color: white!important;
     text-decoration: none;
 }
