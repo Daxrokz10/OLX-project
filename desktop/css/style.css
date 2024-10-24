@@ -13,9 +13,5 @@
 }
 body{
     font-family: "Roboto", sans-serif;
-}
-
-.container-custom{
-    margin: auto;
-    max-width: 1300px;
+    background-color: var(--background-color);
 }
