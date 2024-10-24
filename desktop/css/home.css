@@ -9,14 +9,38 @@
     --card: #515151;
 }
 
+/* HEADER */
+
+header{
+    background-color: var(--background-color);
+}
 .location-button{
     background-color: var(--card);
+    color: white;
+    width: 88px;
+    height: 44px;
+    border-radius: 8px;
     border: 0;
 }
+<<<<<<< HEAD
 .company .line{
     margin-top: -30px;
     margin-bottom: 30px;
 }
+=======
+.location-dot{
+    color: var(--button-color)!important;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+/* MAIN */
+
+.main{
+    margin-top: -50px;
+}
+
+>>>>>>> 46168740bdc93244247cc27ee535ed344795db3b
 footer{
     background-color: var(--card);
     overflow-x: hidden;
