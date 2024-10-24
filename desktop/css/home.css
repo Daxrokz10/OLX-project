@@ -1,3 +1,16 @@
-body{
-    
+:root{
+    --background-color: #1c1c1c;
+    --font: #515151;
+    --button-color: #2AD386;
+    --link: #0060FF;
+    --visited-link: #7e0280;
+    --error: #FF0000;
+    --card: #515151;
+}
+
+nav .home-button{
+    background-color:#0060FF;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
 }

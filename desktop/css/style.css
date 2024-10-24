@@ -10,6 +10,7 @@
     --link: #0060FF;
     --visited-link: #7e0280;
     --error: #FF0000;
+    --card: #515151;
 }
 body{
     font-family: "Roboto", sans-serif;
