@@ -13,9 +13,9 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
 }
 
-.container-custom{
-    margin: auto;
-    max-width: 1300px;
+nav a{
+    color: white!important;
 }
