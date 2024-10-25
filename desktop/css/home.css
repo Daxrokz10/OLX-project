@@ -88,6 +88,30 @@ header{
     margin-top: -50px;
 }
 
+/* MENU CARDS  */
+.menu-cards li{
+    list-style: none;
+}
+.menu-cards .custom-card{
+    background-color: var(--card);
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+.menu-cards ul{
+    margin-top: 50px;
+    text-align: center;
+}
+.menu-cards ul li{
+    margin-top: 30px;
+    margin-left: -25px;
+    color: white;
+    font-size: 18px;
+}
+.menu-cards img{
+    margin-top: 30px;
+}
+
 footer{
     background-color: var(--card);
     overflow-x: hidden;
