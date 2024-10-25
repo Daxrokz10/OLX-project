@@ -88,13 +88,21 @@ header{
     margin-top: -50px;
 }
 
+/* FOOTER */
+
 footer{
     background-color: var(--card);
     overflow-x: hidden;
+}
+footer h5{
+    color: whitesmoke;
 }
 footer ul li{
     list-style: none;
 }
 footer ul{
     padding-left: 0;
+}
+.icon li{
+    font-size: 40px;
 }
