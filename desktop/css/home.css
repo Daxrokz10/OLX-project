@@ -22,12 +22,10 @@ header{
     border-radius: 8px;
     border: 0;
 }
-<<<<<<< HEAD
 .company .line{
     margin-top: -30px;
     margin-bottom: 30px;
 }
-=======
 .location-dot{
     color: var(--button-color)!important;
     font-size: 30px;
@@ -40,9 +38,13 @@ header{
     margin-top: -50px;
 }
 
->>>>>>> 46168740bdc93244247cc27ee535ed344795db3b
 footer{
     background-color: var(--card);
     overflow-x: hidden;
-    padding: 20px 50px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    padding-left: 0;
 }
