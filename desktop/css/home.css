@@ -88,9 +88,7 @@ header{
     margin-top: -50px;
 }
 
-<<<<<<< HEAD
-/* FOOTER */
-=======
+
 /* MENU CARDS  */
 .menu-cards li{
     list-style: none;
@@ -114,8 +112,8 @@ header{
 .menu-cards img{
     margin-top: 30px;
 }
->>>>>>> 36ac25b2c3a28c0ad2504801f140aa11868f387e
 
+/* FOOTER */
 footer{
     background-color: var(--card);
     overflow-x: hidden;
