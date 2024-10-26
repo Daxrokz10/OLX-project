@@ -108,6 +108,5 @@ main{
 }
 main .leader-text{
     background-color: var(--card);
-    margin-left: -200px;
     width: 420px;
 }
