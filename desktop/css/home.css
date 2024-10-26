@@ -130,3 +130,14 @@ footer ul{
 .icon li{
     font-size: 40px;
 }
+footer .bottom-text{
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+footer .bottom-text2{
+    color: whitesmoke;
+    font-size: 13px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
