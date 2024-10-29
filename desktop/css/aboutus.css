@@ -55,3 +55,71 @@ main .leader-text{
     background-color: var(--card);
     width: 420px;
 }
+.leader-content{
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.leader-content .col{
+    width: 420px;
+    border-radius: 15px;
+}
+.leader-content-text{
+    padding: 15px;
+    background-color: var(--card);
+    border-radius: 10px;
+}
+.leader-content-text h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    color: whitesmoke;
+}
+.leader-content-text h2 span{
+    font-size: 20px;
+    font-weight: 300;
+}
+.leader-content-text p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.leader-content-text p a{
+    color: #0060FF;
+    text-decoration: underline;
+}
+
+
+.our-mission .content{
+    background-color: var(--card);
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding: 25px 30px;
+    position: absolute;
+}
+.our-mission .content h2{
+    font-size: 50px;
+   
+}
+.our-mission .content p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.our-mission .content .see-more{
+    background-color: var(--button-color);
+    padding: 5px;
+    width: 40%;
+    margin-left: 130px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.our-mission .image{
+    margin-top: 350px;
+    margin-left: -80px;
+}
