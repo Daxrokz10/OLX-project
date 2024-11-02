@@ -99,3 +99,9 @@ main{
 .carousel img{
     border-radius: 8px;
 }
+
+/* DESCRIPTION */
+
+.description-content-left .col-7{
+    background-color: #515151;
+}
