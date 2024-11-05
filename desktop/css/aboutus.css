@@ -193,13 +193,8 @@ main .leader-text{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.our-achievement .people-award{
-    background-color: var(--card);
-    width: 600px;
-    height: 500px;
+.our-achievement h3{
+    margin: 0;
 }
-.our-achievement .car-award{
-    background-color: var(--card);
-    width: 500px;
-    height: 500px;
-}
+
+
