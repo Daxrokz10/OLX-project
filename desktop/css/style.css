@@ -23,3 +23,21 @@ a{
     color: white;
     text-decoration: none;
 }
+.long-button{
+    height: 44px;
+    width: 250px;
+    border: 0px;
+    border-radius: 8px;
+}
+.short-button{
+    height: 44px;
+    width: 108px;
+    border: 0px;
+    border-radius: 8px;
+}
+.button-green{
+    background-color: var(--button-color);
+}
+.button-white{
+    background-color: white;
+}
