@@ -114,46 +114,6 @@ header{
     margin-top: 30px;
 }
 
-/* PRODUCTS */
-.products{
-    margin-top: 80px;
-}
-.product-card{
-    height: 300px;
-    width: 300px;
-    border-radius: 8px;
-    background-color: var(--card);
-    margin-top: 20px;
-}
-.product-card-photo{
-    background-image: url(../assets/images/iphone\ 14\ 1.png);
-    height: 180px;
-    width: 285px;
-    margin-left: 8px;
-    transform: translateY(5px);
-    border-radius: 8px;
-}
-.product-card ul{
-    list-style: none;
-    color: #efefef;
-}
-.product-card li{
-    margin-left: -20px;
-    margin-top: 10px;
-}
-.product-card h2{
-    padding-top: 5px;
-    font-size: 24px;
-}
-.product-card-address{
-    font-size: 12px;
-}
-.products .verified-user{
-    border-bottom: #2AD386 5px solid;
-}
-.products .unverified-user{
-    border-bottom: #FFCE32 5px solid;
-}
 
 /* SELL AND SHOW BUTTON */
 
@@ -171,36 +131,3 @@ header{
     background-color: var(--button-color);
 }
 
-/* COMPANY */
-.company{
-    padding-bottom: 200px;
-}
-
-/* FOOTER */
-footer{
-    background-color: var(--card);
-    overflow-x: hidden;
-}
-footer h5{
-    color: whitesmoke;
-}
-footer ul li{
-    list-style: none;
-}
-footer ul{
-    padding-left: 0;
-}
-.icon li{
-    font-size: 40px;
-}
-footer .bottom-text{
-    color: whitesmoke;
-    padding-bottom: 20px;
-}
-footer .bottom-text2{
-    color: whitesmoke;
-    font-size: 13px;
-}
-footer a:hover{
-    text-decoration: underline;
-}
