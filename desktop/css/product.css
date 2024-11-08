@@ -102,6 +102,34 @@ main{
 
 /* DESCRIPTION */
 
-.description-content-left .col-7{
+.description{
+    padding-top: 50px;
+    color: white;
+}
+.description ul{
+    list-style: none;
+}
+.description .col-8 ,  .description .col-5{
+    border-radius: 8px;
+}
+.description-content-left .col-8{
     background-color: #515151;
+    margin-left: 270px;
+    max-width: 660px;
+}
+.description-content-right{
+    margin-left: -250px;
+}
+.description-content-right .col-5{
+    background-color: #515151;
+    width: 570px;
+}
+.description-user-details img{
+    height:68px;
+}
+.description .col-with-map{
+    height: 31.5%;
+}
+.description .col-with-address{
+    height: 42%;
 }

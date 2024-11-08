@@ -115,6 +115,7 @@ header{
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 /* PRODUCTS */
 .products{
     margin-top: 80px;   
@@ -156,6 +157,8 @@ header{
 .products .unverified-user{
     border-bottom: #FFCE32 5px solid;
 }
+=======
+>>>>>>> 84e1461473e73f2ba5cfe68af04a5ba846607de2
 
 /* SELL AND SHOW BUTTON */
 
@@ -173,6 +176,7 @@ header{
     background-color: var(--button-color);
 }
 
+<<<<<<< HEAD
 /* COMPANY */
 .company{
     padding-bottom: 200px;
@@ -219,3 +223,5 @@ footer a:hover{
     background-color: #2AD386;
     transform: translateY(-30px);
 }
+=======
+>>>>>>> 84e1461473e73f2ba5cfe68af04a5ba846607de2
