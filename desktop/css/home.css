@@ -99,6 +99,7 @@ header{
     height: 200px;
     width: 200px;
     border-radius: 8px;
+    transition: 0.5s;
 }
 .menu-cards ul{
     margin-top: 50px;
@@ -116,7 +117,7 @@ header{
 
 /* PRODUCTS */
 .products{
-    margin-top: 80px;
+    margin-top: 80px;   
 }
 .product-card{
     height: 300px;
@@ -124,6 +125,7 @@ header{
     border-radius: 8px;
     background-color: var(--card);
     margin-top: 20px;
+    transition: 0.5s;
 }
 .product-card-photo{
     background-image: url(../assets/images/iphone\ 14\ 1.png);
@@ -203,4 +205,17 @@ footer .bottom-text2{
 }
 footer a:hover{
     text-decoration: underline;
+}
+
+
+
+                                    /* H  O  V  E  R  */
+.custom-card:hover{
+    background-color: #2AD386;
+    scale: 0.90;
+}
+
+.product-card:hover{
+    background-color: #2AD386;
+    transform: translateY(-30px);
 }

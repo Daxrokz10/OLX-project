@@ -16,6 +16,7 @@ header{
 }
 header ul{
     margin-left: 300px;
+    
 }
 header ul li{
     font-size: 20px;
@@ -179,22 +180,120 @@ main .leader-text{
 }
 .global-influence .content h6{
    margin-bottom: 0;
-   margin-left: 50px;
+   margin-left: 60px;
    font-size: 20px;
 }
 .global-influence .content .visit{
    margin-bottom: 0;
-   margin-left: 80px;
+   margin-left: 100px;
    font-size: 20px;
 }
 
 
 .our-achievement h1{
+    font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.our-achievement h3{
+.our-achievement .award{
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-achievement .award .people-award{
+    background-color: var(--card);
+    width: 600px;
+    padding: 30px 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: -40px;
+}
+.our-achievement .award .people-award img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-achievement .award .people-award h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+.our-achievement .award .people-award p{
+    color: whitesmoke;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.our-achievement .award .people-award a{
+    background-color: #2AD386;
+    padding: 10px 60px;
+    color: black;
+    border-radius: 15px;
+}
+
+
+.our-achievement .award .car-award{
+    background-color: var(--card);
+    width: 600px;
+    padding: 30px 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -80px;
+}
+.our-achievement .award .car-award img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-achievement .award .car-award h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+.our-achievement .award .car-award p{
+    color: whitesmoke;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.our-achievement .award .car-award a{
+    background-color: #2AD386;
+    padding: 10px 60px;
+    color: black;
+    border-radius: 15px;
+}
+
+.company{
+    padding: 0;
     margin: 0;
 }
 
 
+                             /*  F  O  O  T  E  R  */
+
+footer{
+    background-color: var(--card);
+    overflow-x: hidden;
+}
+footer h5{
+    color: whitesmoke;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    padding-left: 0;
+}
+.icon li{
+    font-size: 40px;
+}
+footer .bottom-text{
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+footer .bottom-text2{
+    color: whitesmoke;
+    font-size: 13px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
