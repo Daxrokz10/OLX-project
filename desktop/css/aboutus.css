@@ -262,38 +262,3 @@ main .leader-text{
     border-radius: 15px;
 }
 
-.company{
-    padding: 0;
-    margin: 0;
-}
-
-
-                             /*  F  O  O  T  E  R  */
-
-footer{
-    background-color: var(--card);
-    overflow-x: hidden;
-}
-footer h5{
-    color: whitesmoke;
-}
-footer ul li{
-    list-style: none;
-}
-footer ul{
-    padding-left: 0;
-}
-.icon li{
-    font-size: 40px;
-}
-footer .bottom-text{
-    color: whitesmoke;
-    padding-bottom: 20px;
-}
-footer .bottom-text2{
-    color: whitesmoke;
-    font-size: 13px;
-}
-footer a:hover{
-    text-decoration: underline;
-}
