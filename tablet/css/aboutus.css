@@ -1,4 +1,3 @@
-
 :root{
     --background-color: #1c1c1c;
     --font: #515151;
@@ -8,6 +7,13 @@
     --error: #FF0000;
     --card: #515151;
 }
+
+
+
+
+@media (max-width:991px){
+    
+
 
 
 
@@ -263,3 +269,5 @@ main .leader-text{
     border-radius: 15px;
 }
 
+
+}
