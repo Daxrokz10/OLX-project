@@ -85,3 +85,9 @@ header{
     transform: translateY(4px);
     margin-left: 50px;
 }
+
+/* fresh reccomendations */
+ 
+.fresh-reccomendations{
+    padding: 100px 0;
+}
