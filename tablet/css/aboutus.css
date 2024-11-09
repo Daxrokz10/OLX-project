@@ -62,7 +62,7 @@ main .leader-text{
     width: 850px;
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
+    margin-left: -200px;
 }
 .leader-content .col{
     width: 420px;
@@ -133,7 +133,7 @@ main .leader-text{
 .olx-services .image{
     width: 500px;
     height: 500px;
-    margin-left: 100px;
+    margin-left: -100px;
     margin-top: 400px;
     border-radius: 30px;
 }
