@@ -78,10 +78,13 @@ nav .location-btn{
 }
 .menu-cards .custom-card{
     background-color: var(--card);
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 8px;
     transition: 0.5s;
+}
+.menu-cards .custom-card img{
+    height: 40px;
 }
 .menu-cards ul{
     margin-top: 50px;

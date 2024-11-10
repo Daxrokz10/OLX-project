@@ -58,17 +58,18 @@ a{
     margin-top: 80px;
 }
 .product-card{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 8px;
     background-color: var(--card);
     margin-top: 20px;
+    margin-left: 8px;
 }
 .product-card-photo{
     background-image: url(../assets/images/iphone\ 14\ 1.png);
-    height: 180px;
-    width: 285px;
-    margin-left: 8px;
+    height: 100px;
+    width: 190px;
+    margin-left: 4px;
     transform: translateY(5px);
     border-radius: 8px;
 }
