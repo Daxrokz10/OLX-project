@@ -28,38 +28,22 @@
   <!-- NAVBAR -->
 
   <header class="position-sticky top-0 start-0 end-0 z-3">
-    <nav class="navbar navbar-expand-lg data-bs-theme-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/images/olx 1.png" alt="olx-logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item ">
-              <button class="location-button">MH</button>
-            </li>
-            <li>
-              <a href="#" class="location-dot"><i class="fa-solid fa-location-dot"></i></a>
-            </li>
-            <li>
-              <input type="text" class="search-bar" placeholder="Find Cars,Mobile Phones and more..."><i
-                class="search-icon fa-solid fa-magnifying-glass"></i>
-            </li>
-            <li>
-              <a href="#" class="language-selector d-inline-block"><img src="./assets/images/अ.png" alt=""></a>
-            </li>
-            <li>
-              <a href="#" class="lock d-inline-block"><i class="fa-solid fa-lock"></i></a>
-            </li>
-            <li>
-              <button class="sign-up-btn">Sign up</button>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand data-bs-theme-dark">
+      <div class="container-lg">
+        <ul class="list-unstyled d-flex flex-row align-items-center">
+          <li>
+            <a class="navbar-brand" href="#"><img src="./assets/images/olx 1.png" alt="olx-logo"></a>
+          </li>
+          <li>
+            <button class="location-btn text-white">Loacation</button>
+            <button class="sign-up-btn">Sign up</button>
+          </li>
+        </ul>
       </div>
     </nav>
+    <div class="nav-search-bar">
+      <input type="text" class="search-bar" placeholder="Find Cars,Mobile Phones and more..."><i class="search-icon fa-solid fa-magnifying-glass"></i>
+    </div>
   </header>
 
   <!-- MAIN  -->
@@ -71,18 +55,7 @@
     <section class="product-carousel">
         <div class="container">
             <div class="row">
-                <div class="col-2">
-                    <div class="col-4">
-                        <img src="./assets/images/blue-iphone-1.png" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img src="./assets/images/blue-iphone-2.png" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img src="./assets/images/blue-iphone-3.png" alt="">
-                    </div>
-                </div>
-                <div class="col-10">
+                <div class="col-12">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -112,8 +85,8 @@
       <div class="contianer">
         <div class="row">
 
-          <div class="col-8 description-content-left">
-            <div class="col-8">
+          <div class="col-12 description-content-left">
+            <div class="col-12">
               <ul>
                 <li>
                   <h3>Description</h3>
@@ -126,7 +99,7 @@
               </ul>
             </div>
 
-            <div class="col-8 col-with-map">
+            <div class="col-12 col-with-map">
               <div class="row">
               <div class="col-4 mt-2">
                 <ul>
@@ -140,7 +113,7 @@
             </div>
             </div>
 
-            <div class="col-8 mt-3 col-with-address">
+            <div class="col-12 mt-3 col-with-address">
               <ul>
                 <li>
                   <p class="fs-5 pt-2">Shipping: Read item description or contact seller for 
@@ -156,8 +129,8 @@
             </div>
           </div>
 
-          <div class="col-5 description-content-right">
-            <div class="col-5">
+          <div class="col-12 description-content-right">
+            <div class="col-12">
               <ul>
                 <li>
                   <h3>₹ 19,200</h3>
@@ -180,7 +153,7 @@
               </ul>
             </div>
 
-            <div class="col-5 description-user-details">
+            <div class="col-12 description-user-details">
               <ul>
 
                 <li class="d-flex flex-row justify-content-around">
@@ -217,10 +190,9 @@
       <div class="container">
         <h2 class="text-white">Simmilar Items</h2>
 
-
         <div class="products">
           <div class="row">
-            <div class="col-3">
+            <div class="col-4">
               <div class="product-card unverified-user">
                 <div class="product-card-photo">
   
@@ -233,14 +205,11 @@
                     <li>
                       <p class="product-card-description">Selling Iphone 14, Two Month Used,95..</p>
                     </li>
-                    <li>
-                      <p class="product-card-address">SMAUDRAPUR MIDC,MAHARASHTRA</p>
-                    </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <div class="product-card verified-user">
                 <div class="product-card-photo">
   
@@ -253,14 +222,11 @@
                     <li>
                       <p class="product-card-description">Selling Iphone 14, Two Month Used,95..</p>
                     </li>
-                    <li>
-                      <p class="product-card-address">SMAUDRAPUR MIDC,MAHARASHTRA</p>
-                    </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <div class="product-card">
                 <div class="product-card-photo">
   
@@ -273,14 +239,11 @@
                     <li>
                       <p class="product-card-description">Selling Iphone 14, Two Month Used,95..</p>
                     </li>
-                    <li>
-                      <p class="product-card-address">SMAUDRAPUR MIDC,MAHARASHTRA</p>
-                    </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <div class="product-card">
                 <div class="product-card-photo">
   
@@ -293,16 +256,49 @@
                     <li>
                       <p class="product-card-description">Selling Iphone 14, Two Month Used,95..</p>
                     </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="product-card">
+                <div class="product-card-photo">
+  
+                </div>
+                <div class="product-card-data">
+                  <ul>
                     <li>
-                      <p class="product-card-address">SMAUDRAPUR MIDC,MAHARASHTRA</p>
+                      <h2>₹23,600</h2>
+                    </li>
+                    <li>
+                      <p class="product-card-description">Selling Iphone 14, Two Month Used,95..</p>
                     </li>
                   </ul>
                 </div>
               </div>
-              <button class="long-button white-button ms-4 mt-3">Show more</button>
             </div>
-          </div>  
-         </div> 
+
+            <div class="col-4">
+              <div class="product-card">
+                <div class="product-card-photo">
+  
+                </div>
+                <div class="product-card-data">
+                  <ul>
+                    <li>
+                      <h2>₹23,600</h2>
+                    </li>
+                    <li>
+                      <p class="product-card-description">Selling Iphone 14, Two Month Used,95..</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>  
       </div>
     </section>
 
