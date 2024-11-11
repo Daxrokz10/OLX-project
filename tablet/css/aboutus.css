@@ -16,26 +16,6 @@
 
 
 
-
-/* HEADER */
-
-header{
-    background-color: var(--background-color);
-}
-header ul{
-    margin-left: 300px;
-    
-}
-header ul li{
-    font-size: 20px;
-    margin: 20px;
-}
-header ul li a:hover{
-    text-decoration: underline;
-    color: var(--button-color)!important;
-}
-
-
 /* MAIN */
 main{
     background-color: var(--background-color);

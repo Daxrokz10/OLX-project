@@ -13,60 +13,6 @@
         background-color: var(--background-color);
     }
     
-    /* HEADER */
-    
-    header{
-        background-color: var(--background-color);
-        padding-bottom: 20px;
-    }
-    .search-bar{
-        background-color: transparent;
-        width: 850px;
-        height: 45px;
-        border: #2AD386 2px solid;
-        border-radius: 20px;
-        margin-left: 70px;
-        color: white;
-        padding-left: 10px;
-    }
-    .search-bar:placeholder-shown{
-        color: #999999;
-        padding-left: 10px;
-    }
-    .search-bar::content{
-        padding-left: 20px;
-    }
-    .search-icon{
-        font-size: 30px;
-        color: var(--button-color);
-        position: absolute;
-        transform: translate(-50px,7px);
-    }
-    .sign-up-btn{
-        height: 44px;
-        width: 108px;
-        background-color: var(--button-color);
-        border: 0;
-        border-radius: 8px;
-        transform: translateY(4px);
-        margin-left: 10px;
-    }
-    
-    nav ul .navbar-brand{
-        margin-left: 20px;
-    }
-    nav .location-btn{
-        margin-left: 600px;
-    }
-    .location-btn{
-        height: 44px;
-        width: 108px;
-        background-color: var(--card);
-        border: 0;
-        border-radius: 8px;
-        transform: translateY(4px);
-        margin-left: 50px;
-    }
     
     /* fresh reccomendations */
      
