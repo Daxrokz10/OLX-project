@@ -11,7 +11,34 @@
 
 
 
-@media (max-width:991px){
+@media (max-width:992px){
+
+    /* O  V  E  R  V  I  E  W  */
+
+    .overview img{
+        margin-left: -40px;
+    }
+    .overview p{
+        font-size: 40px;
+        margin-left: -40px;
+    }
+
+        /* L  E  A  D  E  R  */
+
+    .leader-content{
+        margin-left: -60px;
+    }
+
+    /* O  U  R   M  I  S  S  I  O  N */
+
+    .our-mission .content{
+        margin-left: -50px;
+    }
+    .our-mission .image{
+        margin-top: 450px;
+        margin-left: -50px;
+    }
+}
     
 
 
@@ -67,7 +94,7 @@ main .leader-text{
     width: 850px;
     display: flex;
     flex-direction: row;
-    margin-left: -200px;
+    /* margin-left: -200px; */
 }
 .leader-content .col{
     width: 420px;
@@ -105,7 +132,7 @@ main .leader-text{
     background-color: var(--card);
     width: 500px;
     margin-top: 70px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     border-radius: 20px;
     padding-bottom: 30px;
     padding: 25px 30px;
@@ -128,10 +155,10 @@ main .leader-text{
     border-radius: 5px;
 }
 
-.our-mission .image{
+/* .our-mission .image{
     margin-top: 350px;
     margin-left: -80px;
-}
+} */
 
                              /* O  L  X  -  S  E  R  V  I  C  E  S */
 
@@ -270,4 +297,3 @@ main .leader-text{
 }
 
 
-}
